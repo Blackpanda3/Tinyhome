@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiny Home Vision - contact</title>
+    <link rel="icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../css/output.css">
+    <link rel="stylesheet" href="../css/site.css">
+</head>
+<body>
+    <nav class="fixed top-0 left-0 w-full bg-white z-10">
+        <div class="absolute right-5 top-5 md:hidden z-20" >
+            <button id="menu-btn" >
+                <img src="../images/list (1).png">
+            </button>
+        </div>
+        
+        <div class="flex gap-5 nav-box" id="navbox">
+            <div>
+               <a href="../index.html"> <img src="../images/Group 1 (2).png" width="200" alt="Logo image"/> </a> 
+            </div>
+            
+            <div class=" md:ml-auto hidesmall" id="navboxhide">
+                <div class="flex gap-5 nav-box md:items-center  ">
+                    <div >
+                        <a href="galleries.html">GALLERY</a>
+                    </div>
+                    <div>
+                        <a href="financing.html">FINANCING</a>
+                    </div>
+        
+                    <div>
+                        <a href="contact.html">CONTACT</a>
+                    </div>
+        
+                    <div>
+                        <a href="Aboutus.html">ABOUT</a>
+                    </div>
+        
+                    <div>
+                        <a href="ourproccess.html">OUR PROCCESS</a>
+                    </div>
+                    
+                    <div>
+                        <a class="rounded-3xl inline-block text-white bg-orange-300" style="padding:5px 10px">GET QUOTE</a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </nav>
+
+    <section class="gallerybanner contact">
+        <div class=" w-full h-full flex flex-col justify-center items-center">
+            <div class="text-center">
+                <h4 class=" text-5xl md:text-7xl text-white m-auto">CONTACT US</h4>
+                <p class="text-2xl text-white">we'd love to hear from you</p>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <section>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div >
+                <h4> CONTACT FORM</h4>
+                <form method="post" name="contact" class="mt-5" netlify>
+                    <p>Name <span>*</span></p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-0">
+                        <div>
+                            
+                            <input  type="text" placeholder="First" name="firstName" required />
+                        </div>
+
+                        <div>
+                            <input type="text" placeholder="Last" name="lastName" required />
+                        </div>
+                    </div>
+
+                    <div>
+                        <label> Email <span>*</span></label>
+                        <input type="email" name="email" required />
+                    </div>
+
+                    <div>
+                        <label>Phone Number</label>
+                        <input type="text" id="phone" name="phoneNumber"  />
+                    </div>
+                        
+                    <div>
+                        <label>How Did You Hear About Us</label>
+                        <input type="text" id="referral" name="referral"  />
+                    </div>
+
+                    <div>
+                        <label>Comment</label>
+                        <textarea type="text" id="comment" rows="7" name="comment"> </textarea>
+                    </div>
+                    <hr class="mt-5"/>
+                    <div>
+                        <p> I am interested in</p>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" value="Building ASAP (Already Approved)" class="inline min-w-0" name="interest">
+                                Building ASAP (Already Approved)
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox"value=" Building ASAP (Not Already Approved)" class="inline min-w-0" name="interest">
+                                Building ASAP (Not Already Approved)
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" value="Scheduling Custom Quote($300)" class="inline min-w-0" name="interest">
+                                Scheduling Custom Quote($300)
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" value="Commercial Project" class="inline min-w-0" name="interest">
+                                Commercial Project
+                            </label>
+    
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" value="General Question" class="inline min-w-0" name="interest">
+                                 General Question
+                            </label>
+                        </div>
+                    
+  
+                    </div>
+
+                    <hr class="mt-5"/>
+
+                    <div>
+                        <p> How soon would you like your home or project</p>
+                        <div>
+                            <label>
+                                <input type="checkbox" value="ASAP" class="inline min-w-0" name="expectation">
+                                ASAP
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" value="3-6 Months" class="inline min-w-0" name="expectation">
+                                3-6 Months
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" value="6 Months - 12 Months" class="inline min-w-0" name="expectation">
+                                6 Months - 12 Months
+                            </label>
+                        </div>
+
+                        <div>
+                            
+                        <label>
+                            <input type="checkbox" value="1 Year +" class="inline min-w-0" name="expectation">
+                            1 Year +
+                        </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="checkbox" value="Not Sure" class="inline min-w-0" name="expectation">
+                                 Not Sure
+                            </label>
+      
+                        </div>
+
+                       
+                    </div>
+
+                    <div class="mt-10 w-full ">
+                        <button type="submit" class="linkbtn" style="display:block; width:auto; min-width: 50%;"> SUBMIT</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div>
+                <h4> QUICK LINKS</h4>
+                <P class="mt-5"> Have questions about pricing, financing, or other FAQ?</P>
+                <P>Check these links first!</P>
+
+                <div >
+                    <a href="#" class="mt-5 text-orange-300"> FAQ Page</a>
+                    <a href="#" class="mt-5 text-orange-300">Building Proccess</a>
+                    <a href="#" class="mt-5 text-orange-300">Financing</a>
+                    <a href="#" class="mt-5 text-orange-300">Pricing</a>
+                    
+                </div>
+                
+                <hr class="mt-5"/>
+
+                <div class="mt-5">
+                    <h4> DIRECT CONTACT</h4>
+
+                    <p class="mt-5 break-words">Media Inquiry: melissa.j.ackerman@tinyhomevision.com</p>
+                    <p> General Inquiry or Tiny House Questions: contact@tinyhomevision.com</p>
+                    <!-- <p>phone:(614) 254-7042</p> -->
+
+                    <img src="" />
+                    <p class="mt-5"> contact us now</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-10">
+            <p>
+                <span>Important Note:</span> we have had an extremely high volume of people contacting us.  
+                As such, we have been a little bit behind schedule.  Please be patient with us!  We're just 
+                a small company who have a passion for building the best tiny houses, and we're working on 
+                beefing up our team so we can respond to your questions and requests more quickly!  
+            </p>
+
+            <p class="mt-5">
+                ​Please allow up to 72 hours before response to web contacts.  If for some reason we miss 
+                your contact, please reach out on Email!
+            </p>
+
+            <p class="mt-5">
+                Also, please feel free to check out our FAQ page which answers frequently asked questions 
+                about tiny homes, Modern Tiny Living, financing, and much more.
+            </p>
+        </div>
+    </section>
+
+
+
+    <footer class="" style="background-color: rgb(54, 54, 54);">
+        <div class="text-white text-center">
+            <p> Email: contact@tinyhomevision.com Phone: (614) 259-7042  NewsLetter: <a>Go Here!</a>  </p>
+            <hr style="border-color:black" class="my-7">
+            <p>
+                Tiny Home Vision LLC. • Columbus, Ohio • © Copyright 2023 • All Rights Reserved  
+            </p>
+        </div>
+    </footer>
+
+    <script src="../../../../js/site.js"></script>
+    <script src="../js/menu.js"> </script>
+    
+</body>
+</html>

@@ -1,0 +1,441 @@
+nav{
+    box-shadow: 0px 2px 5px 0px rgba(145,145,145,0.75);
+-webkit-box-shadow: 0px 2px 5px 0px rgba(145,145,145,0.75);
+-moz-box-shadow: 0px 2px 5px 0px rgba(145,145,145,0.75);
+padding:20px 5%;
+
+}
+
+hr{
+  border-color:#0c6e4c ;
+}
+
+input, textarea{
+  border: 2px solid #073b29;
+  display: block;
+  min-width: 70%;
+  padding: 5px;
+  
+}
+
+label{
+ display: block;
+ margin-bottom: 5px;
+}
+
+form div{
+  margin-top: 20px;
+}
+
+section, footer{
+    padding: 30px 15%;
+}
+
+.linkbtn{
+    text-align: center;
+    padding: 5px 10px;
+    border-radius:24px;
+    width: 100%;
+    background-color: #0c6e4c;
+    color:white;
+}
+
+ a{
+    display: block;
+    color: #073b29;
+    
+}
+
+a:hover{
+    transform: scale(1.05);
+    
+}
+
+p{
+  font-size:18px;
+}
+
+
+
+
+
+
+.catalogue-item{
+    position:relative;
+}
+
+.catalogue-item div{
+    position:absolute;
+    left:10px;
+    bottom:5px;
+    color:white;
+}
+
+.clover img{
+height: 250px;
+}
+
+.details{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding:15px;
+}
+
+
+.details>div{
+    border-radius: 100%;
+    background-color: #00973a1e;
+    padding:30%;
+}
+
+.dropdown-btn{
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dropdown-btn .arrow>img
+{
+  transition: all 0.2s;
+}
+
+.rotatearrow{
+  transform: rotate(-90deg);
+}
+
+
+
+.hide{
+  display:none;
+}
+
+.dropdown-item{
+  
+}
+
+.financeformdiv{
+  background-color: rgb(255, 255, 255);
+  padding: 20px 40px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.financeform h4{
+  font-weight: 450;
+  font-size: 20px;
+}
+
+.story-text p{
+  margin-bottom:20px;
+}
+
+.slideshow {
+    list-style-type: none;
+  }
+  
+  /** SLIDESHOW **/
+  .slideshow,
+  .slideshow:after { 
+      top: 0px; /*Not sure why I needed this fix*/
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0px;
+      z-index: -1; 
+  }
+
+  
+  
+  .gallerybanner{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #cccccc;
+  }
+
+  .gallery{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/capricon/bannerlogo.jpg');
+  }
+
+  .aboutUs{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/Factory3.jpg');
+  }
+
+  .molly{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/Molly/hallway-5.jpg');
+  }
+
+  .cloverb{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/New folder/The wave/bedroom-2.jpg');
+
+  }
+
+  .forlough{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/The forlough/saber/livingroom-6.jpg');
+
+  }
+
+  .aSpecialThought{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/customs/A Special Thought/livingroom-4.jpg');
+
+  }
+
+  .bertha{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/customs/Bertha/livingroom-2.jpg');
+
+  }
+
+  .korranne{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/customs/Korranne/topview-2.jpg');
+
+  }
+
+  .maiden{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/customs/maiden/livingroom-3.jpg');
+
+  }
+
+  .raphsody{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/customs/Raphsody/livingroom-2.jpg');
+
+  }
+
+  .allswell{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/customs/Bridge/kitchen-3.jpg');
+
+  }
+
+  .manatae{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/New folder/Aries/livingroom-4.jpg');
+
+  }
+
+  .thebase{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/New folder/The Base/livingroom-4.jpg');
+  }
+
+  .thezenblue{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/New folder/The Zen blue/livingroom-7.jpg');
+  }
+
+
+  .thewave{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/New folder/The wave/livingroom-4.jpg');
+  }
+
+  .cocoa{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/The forlough/cocoa/kitchen-2.jpg');
+  }
+
+  .saber{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/The forlough/saber/hallway-1.jpg');
+  }
+
+  .siren{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/The forlough/siren/kitchen-5.jpg');
+
+  }
+
+  .contact{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/customs/home-decor_200_pexels.jpg');
+  }
+
+  .ourprocess{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/customs/Korranne/kitchen-1.jpg');
+  }
+
+  .story{
+    
+  }
+
+  .gal-link{
+    border:2px solid #0c6e4c;
+    padding:5px 10px;
+    margin-top:20px;
+
+  }
+  .gal-title{
+    font-size: 18px;
+    margin-top: 20px;
+
+  }
+
+  .gal-desc{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gal-models img {
+ 
+   width:100%;
+       
+}
+
+.gal-item-head {
+    margin: 80px 0px 0px 0px;
+    
+}
+
+
+.spec-header{
+    font-weight:500;
+    margin:30px 0px;
+    text-decoration: underline;
+    font-size: 18px;
+    
+}
+
+.spec-label{
+    font-weight:500;
+    font-style: italic;
+
+}
+
+  .slideshow li span { 
+          position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      color: transparent; 
+      background-color: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgb(2, 2, 2) 63%, rgba(3, 3, 3, 0.241) 76%);
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      opacity: 0;
+      z-index: 0;
+      animation: imageAnimation 30s linear infinite 0s; 
+  }
+  
+  
+  
+  .slideshow li:nth-child(1) span { 
+      background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.3) 63%, rgba(0, 0, 0, 0.3) 76%),  url("../images/tiny1.jpg"); 
+      
+  }
+  .slideshow li:nth-child(2) span { 
+      background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.3) 63%, rgba(0, 0, 0, 0.3) 76%),url("../images/tiny2.jpg");
+      animation-delay: 6s; 
+  }
+  .slideshow li:nth-child(3) span { 
+      background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.3) 63%, rgba(0, 0, 0, 0.3) 76%), url("../images/tiny3.jpg");
+      animation-delay: 12s; 
+  }
+  .slideshow li:nth-child(4) span { 
+      background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.3) 63%, rgba(0, 0, 0, 0.3) 76%), url("../images/tiny4.jpg");   
+      animation-delay: 18s; 
+  }
+  .slideshow li:nth-child(5) span { 
+      background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.3) 63%, rgba(0, 0, 0, 0.3) 76%), url("../images/tiny6.jpg");
+      animation-delay: 24s; 
+  }
+  
+  
+  
+  @keyframes imageAnimation { 
+      0% { opacity: 0; animation-timing-function: ease-in; }
+      8% { opacity: 1; animation-timing-function: ease-out; }
+      17% { opacity: 1 }
+      25% { opacity: 0 }
+      100% { opacity: 0 }
+  }
+  
+  
+  @keyframes titleAnimation { 
+      0% { opacity: 0 }
+      8% { opacity: 1 }
+      17% { opacity: 1 }
+      19% { opacity: 0 }
+      100% { opacity: 0 }
+  }
+  
+  
+  .no-cssanimations .cb-slideshow li span {
+      opacity: 1;
+  }
+
+  .gal-items-all img{
+    height: 150px;
+    width:100%
+  }
+
+#fullpage-gallery{
+    width:100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.493);
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:100;
+
+  }
+
+  #fullImage{
+    border:3px solid #ffffff;
+    max-height: 80vh;
+  }
+
+  .hide{
+    display:none;
+  }
+
+  #closebtn{
+    position:absolute;
+    right:5px;
+    top:5px;
+    border-radius: 50%;
+    background-color: rgba(70, 70, 70, 0.575);
+  
+    padding: 0px 8px 5px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+  .activegalleryslide{
+    border:1px solid white;
+  }
+
+  #fullpage-gallery-slide{
+    overflow:scroll;
+  }
+  #fullpage-gallery-slide img{
+    width:30px;
+    height:30px;
+  }
+  #fullpage-gallery-slide::-webkit-scrollbar{
+    display: none;
+  }
+
+  @media only screen and (min-width:1280px) {
+    .gal-item-head {
+        margin: 80px 0px 0px 0px;
+        
+    }
+
+    .gal-items-all img{
+        height: 120px;
+        width:100%;
+      }
+  }
+
+  @media only screen and (max-width:768px){
+    .nav-box{
+      flex-direction: column;
+    }
+
+    .hidesmall{
+      display:none;
+    }
+
+    .gallerybanner{
+      
+      height: 90vh !important;
+      min-height: unset !important;
+    }
+  }
