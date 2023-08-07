@@ -438,4 +438,8 @@ height: 250px;
       height: 90vh !important;
       min-height: unset !important;
     }
+
+    section, footer{
+      padding: 30px 5%;
+  }
   }
