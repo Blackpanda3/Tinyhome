@@ -153,7 +153,9 @@ height: 250px;
     background-position: center center;
     background-color: #cccccc;
   }
-
+  .gallerybanner h4{
+    text-align: center;
+  }
   .gallery{
     background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/custom/capricon/bannerlogo.jpg');
   }
@@ -442,4 +444,15 @@ height: 250px;
     section, footer{
       padding: 30px 5%;
   }
+
+  
+
+  /* *{
+    font-size: 0.95em !important;
+    line-height: 1.2;
+  }
+
+  h4{
+    font-size: 20px !important;
+  } */
   }
